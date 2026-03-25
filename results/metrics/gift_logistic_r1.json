@@ -1,0 +1,10 @@
+{
+  "cipher": "gift",
+  "model": "logistic",
+  "rounds": 1,
+  "bitwise_accuracy": 0.7891509130658436,
+  "hamming_distance": 13.494341563786008,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 4.22
+}

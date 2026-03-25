@@ -1,0 +1,9 @@
+{
+  "cipher": "led",
+  "model": "random_forest",
+  "rounds": 2,
+  "bitwise_accuracy": 0.680443029835391,
+  "hamming_distance": 20.45164609053498,
+  "block_bits": 64,
+  "train_time_s": 3.22
+}

@@ -1,0 +1,9 @@
+{
+  "cipher": "speck",
+  "model": "mlp",
+  "rounds": 1,
+  "bitwise_accuracy": 0.72859375,
+  "hamming_distance": 8.685,
+  "block_bits": 32,
+  "train_time_s": 8.47
+}

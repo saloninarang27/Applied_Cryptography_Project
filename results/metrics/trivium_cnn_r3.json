@@ -1,0 +1,10 @@
+{
+  "cipher": "trivium",
+  "model": "cnn",
+  "rounds": 3,
+  "bitwise_accuracy": 0.5441100823045267,
+  "hamming_distance": 29.17695473251029,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 1.15
+}

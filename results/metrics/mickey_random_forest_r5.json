@@ -1,0 +1,10 @@
+{
+  "cipher": "mickey",
+  "model": "random_forest",
+  "rounds": 5,
+  "bitwise_accuracy": 0.5008600180041153,
+  "hamming_distance": 31.944958847736626,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 3.38
+}

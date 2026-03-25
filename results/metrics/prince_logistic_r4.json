@@ -1,0 +1,9 @@
+{
+  "cipher": "prince",
+  "model": "logistic",
+  "rounds": 4,
+  "bitwise_accuracy": 0.571921875,
+  "hamming_distance": 27.397,
+  "block_bits": 64,
+  "train_time_s": 3.44
+}

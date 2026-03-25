@@ -1,0 +1,265 @@
+{
+  "cipher": "katan",
+  "results_by_model": {
+    "logistic": {
+      "1": {
+        "cipher": "katan",
+        "model": "logistic",
+        "rounds": 1,
+        "bitwise_accuracy": 0.720359375,
+        "hamming_distance": 8.9485,
+        "word_accuracy": 0.0,
+        "block_bits": 32,
+        "train_time_s": 0.38
+      },
+      "2": {
+        "cipher": "katan",
+        "model": "logistic",
+        "rounds": 2,
+        "bitwise_accuracy": 0.643953125,
+        "hamming_distance": 11.3935,
+        "word_accuracy": 0.0,
+        "block_bits": 32,
+        "train_time_s": 0.38
+      },
+      "3": {
+        "cipher": "katan",
+        "model": "logistic",
+        "rounds": 3,
+        "bitwise_accuracy": 0.575734375,
+        "hamming_distance": 13.5765,
+        "word_accuracy": 0.0,
+        "block_bits": 32,
+        "train_time_s": 0.27
+      },
+      "4": {
+        "cipher": "katan",
+        "model": "logistic",
+        "rounds": 4,
+        "bitwise_accuracy": 0.529296875,
+        "hamming_distance": 15.0625,
+        "word_accuracy": 0.0,
+        "block_bits": 32,
+        "train_time_s": 0.2
+      },
+      "5": {
+        "cipher": "katan",
+        "model": "logistic",
+        "rounds": 5,
+        "bitwise_accuracy": 0.501828125,
+        "hamming_distance": 15.9415,
+        "word_accuracy": 0.0,
+        "block_bits": 32,
+        "train_time_s": 0.2
+      }
+    },
+    "mlp": {
+      "1": {
+        "cipher": "katan",
+        "model": "mlp",
+        "rounds": 1,
+        "bitwise_accuracy": 0.720296875,
+        "hamming_distance": 8.9505,
+        "word_accuracy": 0.0,
+        "block_bits": 32,
+        "train_time_s": 14.33
+      },
+      "2": {
+        "cipher": "katan",
+        "model": "mlp",
+        "rounds": 2,
+        "bitwise_accuracy": 0.6403359375,
+        "hamming_distance": 11.50925,
+        "word_accuracy": 0.0,
+        "block_bits": 32,
+        "train_time_s": 14.93
+      },
+      "3": {
+        "cipher": "katan",
+        "model": "mlp",
+        "rounds": 3,
+        "bitwise_accuracy": 0.5785,
+        "hamming_distance": 13.488,
+        "word_accuracy": 0.0,
+        "block_bits": 32,
+        "train_time_s": 16.34
+      },
+      "4": {
+        "cipher": "katan",
+        "model": "mlp",
+        "rounds": 4,
+        "bitwise_accuracy": 0.530765625,
+        "hamming_distance": 15.0155,
+        "word_accuracy": 0.0,
+        "block_bits": 32,
+        "train_time_s": 14.44
+      },
+      "5": {
+        "cipher": "katan",
+        "model": "mlp",
+        "rounds": 5,
+        "bitwise_accuracy": 0.5011640625,
+        "hamming_distance": 15.96275,
+        "word_accuracy": 0.0,
+        "block_bits": 32,
+        "train_time_s": 15.1
+      }
+    },
+    "cnn": {
+      "1": {
+        "cipher": "katan",
+        "model": "cnn",
+        "rounds": 1,
+        "bitwise_accuracy": 0.6084453125,
+        "hamming_distance": 12.52975,
+        "word_accuracy": 0.0,
+        "block_bits": 32,
+        "train_time_s": 1.92
+      },
+      "2": {
+        "cipher": "katan",
+        "model": "cnn",
+        "rounds": 2,
+        "bitwise_accuracy": 0.5726171875,
+        "hamming_distance": 13.67625,
+        "word_accuracy": 0.0,
+        "block_bits": 32,
+        "train_time_s": 1.95
+      },
+      "3": {
+        "cipher": "katan",
+        "model": "cnn",
+        "rounds": 3,
+        "bitwise_accuracy": 0.537234375,
+        "hamming_distance": 14.8085,
+        "word_accuracy": 0.0,
+        "block_bits": 32,
+        "train_time_s": 1.91
+      },
+      "4": {
+        "cipher": "katan",
+        "model": "cnn",
+        "rounds": 4,
+        "bitwise_accuracy": 0.5157734375,
+        "hamming_distance": 15.49525,
+        "word_accuracy": 0.0,
+        "block_bits": 32,
+        "train_time_s": 1.95
+      },
+      "5": {
+        "cipher": "katan",
+        "model": "cnn",
+        "rounds": 5,
+        "bitwise_accuracy": 0.4972890625,
+        "hamming_distance": 16.08675,
+        "word_accuracy": 0.0,
+        "block_bits": 32,
+        "train_time_s": 1.9
+      }
+    },
+    "mine": {
+      "1": {
+        "cipher": "katan",
+        "model": "mine",
+        "rounds": 1,
+        "bitwise_accuracy": 0.7175078125,
+        "hamming_distance": 9.03975,
+        "word_accuracy": 0.0,
+        "block_bits": 32,
+        "train_time_s": 1.73
+      },
+      "2": {
+        "cipher": "katan",
+        "model": "mine",
+        "rounds": 2,
+        "bitwise_accuracy": 0.642578125,
+        "hamming_distance": 11.4375,
+        "word_accuracy": 0.0,
+        "block_bits": 32,
+        "train_time_s": 1.59
+      },
+      "3": {
+        "cipher": "katan",
+        "model": "mine",
+        "rounds": 3,
+        "bitwise_accuracy": 0.5751796875,
+        "hamming_distance": 13.59425,
+        "word_accuracy": 0.0,
+        "block_bits": 32,
+        "train_time_s": 1.64
+      },
+      "4": {
+        "cipher": "katan",
+        "model": "mine",
+        "rounds": 4,
+        "bitwise_accuracy": 0.5324375,
+        "hamming_distance": 14.962,
+        "word_accuracy": 0.0,
+        "block_bits": 32,
+        "train_time_s": 1.59
+      },
+      "5": {
+        "cipher": "katan",
+        "model": "mine",
+        "rounds": 5,
+        "bitwise_accuracy": 0.4981015625,
+        "hamming_distance": 16.06075,
+        "word_accuracy": 0.0,
+        "block_bits": 32,
+        "train_time_s": 1.74
+      }
+    },
+    "random_forest": {
+      "1": {
+        "cipher": "katan",
+        "model": "random_forest",
+        "rounds": 1,
+        "bitwise_accuracy": 0.7194765625,
+        "hamming_distance": 8.97675,
+        "word_accuracy": 0.0,
+        "block_bits": 32,
+        "train_time_s": 1.55
+      },
+      "2": {
+        "cipher": "katan",
+        "model": "random_forest",
+        "rounds": 2,
+        "bitwise_accuracy": 0.640109375,
+        "hamming_distance": 11.5165,
+        "word_accuracy": 0.0,
+        "block_bits": 32,
+        "train_time_s": 1.54
+      },
+      "3": {
+        "cipher": "katan",
+        "model": "random_forest",
+        "rounds": 3,
+        "bitwise_accuracy": 0.577703125,
+        "hamming_distance": 13.5135,
+        "word_accuracy": 0.0,
+        "block_bits": 32,
+        "train_time_s": 1.52
+      },
+      "4": {
+        "cipher": "katan",
+        "model": "random_forest",
+        "rounds": 4,
+        "bitwise_accuracy": 0.531359375,
+        "hamming_distance": 14.9965,
+        "word_accuracy": 0.0,
+        "block_bits": 32,
+        "train_time_s": 1.54
+      },
+      "5": {
+        "cipher": "katan",
+        "model": "random_forest",
+        "rounds": 5,
+        "bitwise_accuracy": 0.4988203125,
+        "hamming_distance": 16.03775,
+        "word_accuracy": 0.0,
+        "block_bits": 32,
+        "train_time_s": 1.55
+      }
+    }
+  }
+}

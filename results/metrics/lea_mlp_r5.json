@@ -1,0 +1,10 @@
+{
+  "cipher": "lea",
+  "model": "mlp",
+  "rounds": 5,
+  "bitwise_accuracy": 0.5082373046875,
+  "hamming_distance": 62.945625,
+  "word_accuracy": 0.0,
+  "block_bits": 128,
+  "train_time_s": 32.54
+}

@@ -1,0 +1,9 @@
+{
+  "cipher": "prince",
+  "model": "mlp",
+  "rounds": 3,
+  "bitwise_accuracy": 0.622125,
+  "hamming_distance": 24.184,
+  "block_bits": 64,
+  "train_time_s": 19.19
+}

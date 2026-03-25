@@ -1,0 +1,9 @@
+{
+  "cipher": "katan",
+  "model": "mlp",
+  "rounds": 30,
+  "bitwise_accuracy": 0.535125,
+  "hamming_distance": 14.876,
+  "block_bits": 32,
+  "train_time_s": 6.56
+}

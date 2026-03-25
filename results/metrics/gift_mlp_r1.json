@@ -1,0 +1,9 @@
+{
+  "cipher": "gift",
+  "model": "mlp",
+  "rounds": 1,
+  "bitwise_accuracy": 0.8024375,
+  "hamming_distance": 12.644,
+  "block_bits": 64,
+  "train_time_s": 11.96
+}

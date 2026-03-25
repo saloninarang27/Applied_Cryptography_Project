@@ -1,0 +1,9 @@
+{
+  "cipher": "katan",
+  "model": "random_forest",
+  "rounds": 10,
+  "bitwise_accuracy": 0.861734375,
+  "hamming_distance": 4.4245,
+  "block_bits": 32,
+  "train_time_s": 2.85
+}

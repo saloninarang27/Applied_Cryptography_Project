@@ -1,0 +1,10 @@
+{
+  "cipher": "chacha20",
+  "model": "mlp",
+  "rounds": 1,
+  "bitwise_accuracy": 0.9614776234567901,
+  "hamming_distance": 2.465432098765432,
+  "word_accuracy": 0.11481481481481481,
+  "block_bits": 64,
+  "train_time_s": 371.84
+}

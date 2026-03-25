@@ -1,0 +1,10 @@
+{
+  "cipher": "xoodoo",
+  "model": "cnn",
+  "rounds": 5,
+  "bitwise_accuracy": 0.5007027116402116,
+  "hamming_distance": 31.955026455026456,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 3.8
+}

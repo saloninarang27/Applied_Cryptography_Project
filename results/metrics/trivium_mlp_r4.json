@@ -1,0 +1,10 @@
+{
+  "cipher": "trivium",
+  "model": "mlp",
+  "rounds": 4,
+  "bitwise_accuracy": 0.595044045781893,
+  "hamming_distance": 25.917181069958847,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 15.09
+}

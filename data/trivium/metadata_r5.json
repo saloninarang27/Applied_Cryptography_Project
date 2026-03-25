@@ -1,0 +1,22 @@
+{
+  "cipher": "trivium",
+  "rounds": 5,
+  "num_samples": 9720,
+  "block_bits": 64,
+  "key_hex": [
+    "0x12345678",
+    "0x9abcdef0",
+    "0xf1e2d3c",
+    "0x4b5a6978"
+  ],
+  "seed": 42,
+  "X_shape": [
+    9720,
+    64
+  ],
+  "y_shape": [
+    9720,
+    64
+  ],
+  "gen_time_s": 0.8
+}

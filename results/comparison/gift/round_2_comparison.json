@@ -1,0 +1,52 @@
+{
+  "cipher": "gift",
+  "round": 2,
+  "models": {
+    "logistic": {
+      "cipher": "gift",
+      "model": "logistic",
+      "rounds": 2,
+      "bitwise_accuracy": 0.7192081404320988,
+      "hamming_distance": 17.97067901234568,
+      "word_accuracy": 0.0,
+      "block_bits": 64,
+      "train_time_s": 4.74
+    },
+    "mlp": {
+      "cipher": "gift",
+      "model": "mlp",
+      "rounds": 2,
+      "bitwise_accuracy": 0.724671875,
+      "hamming_distance": 17.621,
+      "block_bits": 64,
+      "train_time_s": 13.42
+    },
+    "cnn": {
+      "cipher": "gift",
+      "model": "cnn",
+      "rounds": 2,
+      "bitwise_accuracy": 0.527930491255144,
+      "hamming_distance": 30.212448559670783,
+      "block_bits": 64,
+      "train_time_s": 3.07
+    },
+    "mine": {
+      "cipher": "gift",
+      "model": "mine",
+      "rounds": 2,
+      "bitwise_accuracy": 0.6551970807613169,
+      "hamming_distance": 22.06738683127572,
+      "block_bits": 64,
+      "train_time_s": 0.83
+    },
+    "random_forest": {
+      "cipher": "gift",
+      "model": "random_forest",
+      "rounds": 2,
+      "bitwise_accuracy": 0.7325826260288066,
+      "hamming_distance": 17.11471193415638,
+      "block_bits": 64,
+      "train_time_s": 2.48
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cipher": "rectangle",
+  "model": "logistic",
+  "rounds": 4,
+  "bitwise_accuracy": 0.5693479938271605,
+  "hamming_distance": 27.561728395061728,
+  "block_bits": 64,
+  "train_time_s": 5.04
+}

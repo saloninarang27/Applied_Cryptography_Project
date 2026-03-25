@@ -1,0 +1,9 @@
+{
+  "cipher": "rectangle",
+  "model": "mlp",
+  "rounds": 4,
+  "bitwise_accuracy": 0.568140625,
+  "hamming_distance": 27.639,
+  "block_bits": 64,
+  "train_time_s": 37.19
+}

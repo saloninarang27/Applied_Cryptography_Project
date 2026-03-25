@@ -1,0 +1,9 @@
+{
+  "cipher": "ascon",
+  "model": "cnn",
+  "rounds": 5,
+  "bitwise_accuracy": 0.5004409171075838,
+  "hamming_distance": 31.97178130511464,
+  "block_bits": 64,
+  "train_time_s": 4.51
+}

@@ -1,0 +1,9 @@
+{
+  "cipher": "skinny",
+  "model": "random_forest",
+  "rounds": 2,
+  "bitwise_accuracy": 0.6795508616255144,
+  "hamming_distance": 20.508744855967077,
+  "block_bits": 64,
+  "train_time_s": 2.96
+}

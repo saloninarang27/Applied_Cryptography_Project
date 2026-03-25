@@ -1,0 +1,10 @@
+{
+  "cipher": "tinyjambu",
+  "model": "random_forest",
+  "rounds": 1,
+  "bitwise_accuracy": 0.7189107510288066,
+  "hamming_distance": 17.98971193415638,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 1.55
+}

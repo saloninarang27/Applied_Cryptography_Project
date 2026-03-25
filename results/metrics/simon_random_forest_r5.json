@@ -1,0 +1,10 @@
+{
+  "cipher": "simon",
+  "model": "random_forest",
+  "rounds": 5,
+  "bitwise_accuracy": 0.53134375,
+  "hamming_distance": 14.997,
+  "word_accuracy": 0.0,
+  "block_bits": 32,
+  "train_time_s": 15.7
+}

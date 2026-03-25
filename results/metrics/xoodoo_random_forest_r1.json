@@ -1,0 +1,10 @@
+{
+  "cipher": "xoodoo",
+  "model": "random_forest",
+  "rounds": 1,
+  "bitwise_accuracy": 0.8795400683421517,
+  "hamming_distance": 7.709435626102293,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 2.94
+}

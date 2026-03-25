@@ -1,0 +1,22 @@
+{
+  "cipher": "gimli",
+  "rounds": 5,
+  "num_samples": 11340,
+  "block_bits": 64,
+  "key_hex": [
+    "0x243f6a88",
+    "0x85a308d3",
+    "0x13198a2e",
+    "0x3707344"
+  ],
+  "seed": 42,
+  "X_shape": [
+    11340,
+    64
+  ],
+  "y_shape": [
+    11340,
+    64
+  ],
+  "gen_time_s": 0.73
+}

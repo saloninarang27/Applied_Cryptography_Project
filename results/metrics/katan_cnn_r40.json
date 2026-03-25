@@ -1,0 +1,9 @@
+{
+  "cipher": "katan",
+  "model": "cnn",
+  "rounds": 40,
+  "bitwise_accuracy": 0.4983359375,
+  "hamming_distance": 16.05325,
+  "block_bits": 32,
+  "train_time_s": 352.86
+}

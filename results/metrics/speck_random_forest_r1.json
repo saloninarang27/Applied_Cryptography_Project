@@ -1,0 +1,10 @@
+{
+  "cipher": "speck",
+  "model": "random_forest",
+  "rounds": 1,
+  "bitwise_accuracy": 0.7991015625,
+  "hamming_distance": 6.42875,
+  "word_accuracy": 0.00075,
+  "block_bits": 32,
+  "train_time_s": 5.33
+}

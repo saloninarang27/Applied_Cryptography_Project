@@ -1,0 +1,9 @@
+{
+  "cipher": "speck",
+  "model": "logistic",
+  "rounds": 3,
+  "bitwise_accuracy": 0.62353125,
+  "hamming_distance": 12.047,
+  "block_bits": 32,
+  "train_time_s": 1.25
+}

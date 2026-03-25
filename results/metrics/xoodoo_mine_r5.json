@@ -1,0 +1,10 @@
+{
+  "cipher": "xoodoo",
+  "model": "mine",
+  "rounds": 5,
+  "bitwise_accuracy": 0.5007233796296297,
+  "hamming_distance": 31.953703703703702,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 0.86
+}

@@ -1,0 +1,10 @@
+{
+  "cipher": "present",
+  "model": "logistic",
+  "rounds": 5,
+  "bitwise_accuracy": 0.5076171875,
+  "hamming_distance": 31.5125,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 0.43
+}

@@ -1,0 +1,10 @@
+{
+  "cipher": "mickey",
+  "model": "mine",
+  "rounds": 4,
+  "bitwise_accuracy": 0.5638342335390947,
+  "hamming_distance": 27.91460905349794,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 1.31
+}

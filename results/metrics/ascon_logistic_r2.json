@@ -1,0 +1,10 @@
+{
+  "cipher": "ascon",
+  "model": "logistic",
+  "rounds": 2,
+  "bitwise_accuracy": 0.74928125,
+  "hamming_distance": 16.046,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 5.18
+}

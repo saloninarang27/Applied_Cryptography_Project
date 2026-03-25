@@ -1,0 +1,10 @@
+{
+  "cipher": "lea",
+  "model": "random_forest",
+  "rounds": 2,
+  "bitwise_accuracy": 0.637021484375,
+  "hamming_distance": 46.46125,
+  "word_accuracy": 0.0,
+  "block_bits": 128,
+  "train_time_s": 4.39
+}

@@ -1,0 +1,22 @@
+{
+  "cipher": "mickey",
+  "rounds": 5,
+  "num_samples": 9720,
+  "block_bits": 64,
+  "key_hex": [
+    "0xbadf00d",
+    "0xdeadbeef",
+    "0xcafebabe",
+    "0x13579bdf"
+  ],
+  "seed": 42,
+  "X_shape": [
+    9720,
+    64
+  ],
+  "y_shape": [
+    9720,
+    64
+  ],
+  "gen_time_s": 1.25
+}

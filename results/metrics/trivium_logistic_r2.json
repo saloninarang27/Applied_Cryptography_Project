@@ -1,0 +1,10 @@
+{
+  "cipher": "trivium",
+  "model": "logistic",
+  "rounds": 2,
+  "bitwise_accuracy": 0.7189429012345679,
+  "hamming_distance": 17.987654320987655,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 0.59
+}

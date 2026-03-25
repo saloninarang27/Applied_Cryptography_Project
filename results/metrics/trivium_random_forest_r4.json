@@ -1,0 +1,10 @@
+{
+  "cipher": "trivium",
+  "model": "random_forest",
+  "rounds": 4,
+  "bitwise_accuracy": 0.5921987525720165,
+  "hamming_distance": 26.099279835390945,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 1.82
+}

@@ -1,0 +1,10 @@
+{
+  "cipher": "present",
+  "model": "random_forest",
+  "rounds": 3,
+  "bitwise_accuracy": 0.5649715470679012,
+  "hamming_distance": 27.84182098765432,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 2.31
+}

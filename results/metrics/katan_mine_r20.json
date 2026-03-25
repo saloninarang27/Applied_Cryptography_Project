@@ -1,0 +1,9 @@
+{
+  "cipher": "katan",
+  "model": "mine",
+  "rounds": 20,
+  "bitwise_accuracy": 0.6956875,
+  "hamming_distance": 9.738,
+  "block_bits": 32,
+  "train_time_s": 9.23
+}

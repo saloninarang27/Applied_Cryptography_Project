@@ -1,0 +1,10 @@
+{
+  "cipher": "gimli",
+  "model": "mlp",
+  "rounds": 3,
+  "bitwise_accuracy": 0.603375,
+  "hamming_distance": 25.384,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 11.99
+}

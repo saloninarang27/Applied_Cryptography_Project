@@ -1,0 +1,10 @@
+{
+  "cipher": "gimli",
+  "model": "cnn",
+  "rounds": 3,
+  "bitwise_accuracy": 0.5112089395943563,
+  "hamming_distance": 31.2826278659612,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 3.16
+}

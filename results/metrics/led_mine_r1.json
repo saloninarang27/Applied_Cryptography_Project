@@ -1,0 +1,9 @@
+{
+  "cipher": "led",
+  "model": "mine",
+  "rounds": 1,
+  "bitwise_accuracy": 0.6577128343621399,
+  "hamming_distance": 21.906378600823047,
+  "block_bits": 64,
+  "train_time_s": 1.49
+}

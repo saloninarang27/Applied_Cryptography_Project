@@ -1,0 +1,10 @@
+{
+  "cipher": "gimli",
+  "model": "logistic",
+  "rounds": 5,
+  "bitwise_accuracy": 0.500953125,
+  "hamming_distance": 31.939,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 3.68
+}

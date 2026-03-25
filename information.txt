@@ -1,0 +1,33 @@
+# Project AC Cipher Information
+
+This file contains information about each cipher's block size and the dataset size used for training and testing.
+
+Note: The training/testing split is consistently 80% for training and 20% for testing across all experiments, though some models (MLP, CNN, RF) may cap the maximum number of samples used during their specific training runs to remain computationally efficient.
+
+| Cipher Name | Block Size (bits) | Total Samples | Training Samples (80%) | Testing Samples (20%) |
+| :--- | :--- | :--- | :--- | :--- |
+| AES | 128 bit | 20,000 | 16,000 | 4,000 |
+| ASCON | 64 bit | 70,000 | 56,000 | 14,000 |
+| CHACHA20 | 64 bit | 50,000 | 40,000 | 10,000 |
+| GIFT | 64 bit | 60,000 | 48,000 | 12,000 |
+| GIMLI | 64 bit | 70,000 | 56,000 | 14,000 |
+| GRAIN-128A | 64 bit | 60,000 | 48,000 | 12,000 |
+| KATAN | 32 bit | 150,000 | 120,000 | 30,000 |
+| LED | 64 bit | 60,000 | 48,000 | 12,000 |
+| MICKEY | 64 bit | 60,000 | 48,000 | 12,000 |
+| PRESENT | 64 bit | 80,000 | 64,000 | 16,000 |
+| PRINCE | 64 bit | 70,000 | 56,000 | 14,000 |
+| RECTANGLE | 64 bit | 60,000 | 48,000 | 12,000 |
+| SALSA20 | 64 bit | 50,000 | 40,000 | 10,000 |
+| SIMON | 32 bit | 200,000 | 160,000 | 40,000 |
+| SKINNY | 64 bit | 60,000 | 48,000 | 12,000 |
+| SPECK | 32 bit | 200,000 | 160,000 | 40,000 |
+| TINYJAMBU | 64 bit | 60,000 | 48,000 | 12,000 |
+| TRIVIUM | 64 bit | 60,000 | 48,000 | 12,000 |
+| XOODOO | 64 bit | 70,000 | 56,000 | 14,000 |
+
+Summary:
+- 32-bit ciphers: KATAN, SIMON, SPECK.
+- 64-bit ciphers: ASCON, CHACHA20, GIFT, GIMLI, GRAIN-128A, LED, MICKEY, PRESENT, PRINCE, RECTANGLE, SALSA20, SKINNY, TINYJAMBU, TRIVIUM, XOODOO.
+- 128-bit ciphers: AES.
+- Dataset sizes range from 20k to 200k total samples, with 10k to 160k typically used for training.

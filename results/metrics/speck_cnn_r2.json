@@ -1,0 +1,10 @@
+{
+  "cipher": "speck",
+  "model": "cnn",
+  "rounds": 2,
+  "bitwise_accuracy": 0.625203125,
+  "hamming_distance": 11.9935,
+  "word_accuracy": 0.0,
+  "block_bits": 32,
+  "train_time_s": 5.0
+}

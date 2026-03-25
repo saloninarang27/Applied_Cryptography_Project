@@ -1,0 +1,189 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run tinyjambu fast",
+			"type": "shell",
+			"command": "c:/Users/hp/Desktop/Ac/.venv/Scripts/python.exe",
+			"args": [
+				"experiments/main_tinyjambu.py"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Run tinyjambu fast append-ready",
+			"type": "shell",
+			"command": "c:/Users/hp/Desktop/Ac/.venv/Scripts/python.exe",
+			"args": [
+				"experiments/main_tinyjambu.py"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Run from tinyjambu fast",
+			"type": "shell",
+			"command": "c:/Users/hp/Desktop/Ac/.venv/Scripts/python.exe",
+			"args": [
+				"run_all.py",
+				"--fast",
+				"--start-from",
+				"tinyjambu"
+			],
+			"isBackground": true
+		},
+		{
+			"label": "Run tinyjambu patched",
+			"type": "shell",
+			"command": "c:/Users/hp/Desktop/Ac/.venv/Scripts/python.exe",
+			"args": [
+				"experiments/main_tinyjambu.py"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Run from tinyjambu fast logged",
+			"type": "shell",
+			"command": "powershell",
+			"args": [
+				"-NoProfile",
+				"-Command",
+				"$env:AC_FAST_MODE='1'; c:/Users/hp/Desktop/Ac/.venv/Scripts/python.exe run_all.py --fast --start-from tinyjambu 2>&1 | Tee-Object -FilePath run_from_tinyjambu.log"
+			],
+			"isBackground": true
+		},
+		{
+			"label": "Run from tinyjambu fast clean",
+			"type": "shell",
+			"command": "c:/Users/hp/Desktop/Ac/.venv/Scripts/python.exe",
+			"args": [
+				"run_all.py",
+				"--fast",
+				"--start-from",
+				"tinyjambu"
+			],
+			"isBackground": true
+		},
+		{
+			"label": "Run from tinyjambu fast unbuffered",
+			"type": "shell",
+			"command": "c:/Users/hp/Desktop/Ac/.venv/Scripts/python.exe",
+			"args": [
+				"-u",
+				"run_all.py",
+				"--fast",
+				"--start-from",
+				"tinyjambu"
+			],
+			"isBackground": true
+		},
+		{
+			"label": "Clean resume from tinyjambu",
+			"type": "shell",
+			"command": "c:/Users/hp/Desktop/Ac/.venv/Scripts/python.exe",
+			"args": [
+				"-u",
+				"run_all.py",
+				"--fast",
+				"--start-from",
+				"tinyjambu"
+			],
+			"isBackground": true
+		},
+		{
+			"label": "Verify tinyjambu after MLP fix",
+			"type": "shell",
+			"command": "powershell",
+			"args": [
+				"-NoProfile",
+				"-Command",
+				"$env:AC_FAST_MODE='1'; c:/Users/hp/Desktop/Ac/.venv/Scripts/python.exe -u experiments/main_tinyjambu.py"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Retrain TRIVIUM (Fixed Code)",
+			"type": "shell",
+			"command": "c:/Users/hp/Desktop/Ac/.venv/Scripts/python.exe",
+			"args": [
+				"experiments/main_trivium.py"
+			]
+		},
+		{
+			"label": "Retrain AES (Cleaned Features)",
+			"type": "shell",
+			"command": "c:/Users/hp/Desktop/Ac/.venv/Scripts/python.exe",
+			"args": [
+				"experiments/main_aes.py"
+			]
+		},
+		{
+			"label": "Retrain SPECK (Cleaned Features)",
+			"type": "shell",
+			"command": "c:/Users/hp/Desktop/Ac/.venv/Scripts/python.exe",
+			"args": [
+				"experiments/main_speck.py"
+			]
+		},
+		{
+			"label": "Retrain PRESENT (main_present)",
+			"type": "shell",
+			"command": "c:/Users/hp/Desktop/Ac/.venv/Scripts/python.exe",
+			"args": [
+				"experiments/main_present.py"
+			]
+		},
+		{
+			"label": "Retrain CHACHA20 (Cleaned Features)",
+			"type": "shell",
+			"command": "c:/Users/hp/Desktop/Ac/.venv/Scripts/python.exe",
+			"args": [
+				"experiments/main_chacha20.py"
+			]
+		},
+		{
+			"label": "Rerun TRIVIUM latest",
+			"type": "shell",
+			"command": "c:/Users/hp/Desktop/Ac/.venv/Scripts/python.exe",
+			"args": [
+				"experiments/main_trivium.py"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Rerun AES latest",
+			"type": "shell",
+			"command": "c:/Users/hp/Desktop/Ac/.venv/Scripts/python.exe",
+			"args": [
+				"experiments/main_aes.py"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Rerun SPECK latest",
+			"type": "shell",
+			"command": "c:/Users/hp/Desktop/Ac/.venv/Scripts/python.exe",
+			"args": [
+				"experiments/main_speck.py"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Rerun PRESENT latest (main_present)",
+			"type": "shell",
+			"command": "c:/Users/hp/Desktop/Ac/.venv/Scripts/python.exe",
+			"args": [
+				"experiments/main_present.py"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Rerun CHACHA20 latest",
+			"type": "shell",
+			"command": "c:/Users/hp/Desktop/Ac/.venv/Scripts/python.exe",
+			"args": [
+				"experiments/main_chacha20.py"
+			],
+			"isBackground": false
+		}
+	]
+}

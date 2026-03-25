@@ -1,0 +1,265 @@
+{
+  "cipher": "trivium",
+  "results_by_model": {
+    "logistic": {
+      "1": {
+        "cipher": "trivium",
+        "model": "logistic",
+        "rounds": 1,
+        "bitwise_accuracy": 0.7816116898148148,
+        "hamming_distance": 13.976851851851851,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 0.63
+      },
+      "2": {
+        "cipher": "trivium",
+        "model": "logistic",
+        "rounds": 2,
+        "bitwise_accuracy": 0.7189429012345679,
+        "hamming_distance": 17.987654320987655,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 0.59
+      },
+      "3": {
+        "cipher": "trivium",
+        "model": "logistic",
+        "rounds": 3,
+        "bitwise_accuracy": 0.6578173225308642,
+        "hamming_distance": 21.89969135802469,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 0.54
+      },
+      "4": {
+        "cipher": "trivium",
+        "model": "logistic",
+        "rounds": 4,
+        "bitwise_accuracy": 0.5948189943415638,
+        "hamming_distance": 25.93158436213992,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 0.48
+      },
+      "5": {
+        "cipher": "trivium",
+        "model": "logistic",
+        "rounds": 5,
+        "bitwise_accuracy": 0.5169110082304527,
+        "hamming_distance": 30.91769547325103,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 0.44
+      }
+    },
+    "mlp": {
+      "1": {
+        "cipher": "trivium",
+        "model": "mlp",
+        "rounds": 1,
+        "bitwise_accuracy": 0.7812580375514403,
+        "hamming_distance": 13.99948559670782,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 16.32
+      },
+      "2": {
+        "cipher": "trivium",
+        "model": "mlp",
+        "rounds": 2,
+        "bitwise_accuracy": 0.7160252700617284,
+        "hamming_distance": 18.174382716049383,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 13.12
+      },
+      "3": {
+        "cipher": "trivium",
+        "model": "mlp",
+        "rounds": 3,
+        "bitwise_accuracy": 0.6561213991769548,
+        "hamming_distance": 22.008230452674898,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 13.79
+      },
+      "4": {
+        "cipher": "trivium",
+        "model": "mlp",
+        "rounds": 4,
+        "bitwise_accuracy": 0.595044045781893,
+        "hamming_distance": 25.917181069958847,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 15.09
+      },
+      "5": {
+        "cipher": "trivium",
+        "model": "mlp",
+        "rounds": 5,
+        "bitwise_accuracy": 0.5188802083333334,
+        "hamming_distance": 30.791666666666668,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 16.34
+      }
+    },
+    "cnn": {
+      "1": {
+        "cipher": "trivium",
+        "model": "cnn",
+        "rounds": 1,
+        "bitwise_accuracy": 0.574974279835391,
+        "hamming_distance": 27.20164609053498,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 1.11
+      },
+      "2": {
+        "cipher": "trivium",
+        "model": "cnn",
+        "rounds": 2,
+        "bitwise_accuracy": 0.5570023148148148,
+        "hamming_distance": 28.35185185185185,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 1.09
+      },
+      "3": {
+        "cipher": "trivium",
+        "model": "cnn",
+        "rounds": 3,
+        "bitwise_accuracy": 0.5441100823045267,
+        "hamming_distance": 29.17695473251029,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 1.15
+      },
+      "4": {
+        "cipher": "trivium",
+        "model": "cnn",
+        "rounds": 4,
+        "bitwise_accuracy": 0.5256156764403292,
+        "hamming_distance": 30.36059670781893,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 1.24
+      },
+      "5": {
+        "cipher": "trivium",
+        "model": "cnn",
+        "rounds": 5,
+        "bitwise_accuracy": 0.5054976851851852,
+        "hamming_distance": 31.64814814814815,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 1.14
+      }
+    },
+    "mine": {
+      "1": {
+        "cipher": "trivium",
+        "model": "mine",
+        "rounds": 1,
+        "bitwise_accuracy": 0.7790155606995884,
+        "hamming_distance": 14.143004115226338,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 2.66
+      },
+      "2": {
+        "cipher": "trivium",
+        "model": "mine",
+        "rounds": 2,
+        "bitwise_accuracy": 0.719505529835391,
+        "hamming_distance": 17.95164609053498,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 2.92
+      },
+      "3": {
+        "cipher": "trivium",
+        "model": "mine",
+        "rounds": 3,
+        "bitwise_accuracy": 0.6554542824074074,
+        "hamming_distance": 22.050925925925927,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 3.6
+      },
+      "4": {
+        "cipher": "trivium",
+        "model": "mine",
+        "rounds": 4,
+        "bitwise_accuracy": 0.596338091563786,
+        "hamming_distance": 25.834362139917694,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 2.86
+      },
+      "5": {
+        "cipher": "trivium",
+        "model": "mine",
+        "rounds": 5,
+        "bitwise_accuracy": 0.5185587062757202,
+        "hamming_distance": 30.81224279835391,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 2.9
+      }
+    },
+    "random_forest": {
+      "1": {
+        "cipher": "trivium",
+        "model": "random_forest",
+        "rounds": 1,
+        "bitwise_accuracy": 0.7782519933127572,
+        "hamming_distance": 14.191872427983538,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 1.78
+      },
+      "2": {
+        "cipher": "trivium",
+        "model": "random_forest",
+        "rounds": 2,
+        "bitwise_accuracy": 0.7194251543209876,
+        "hamming_distance": 17.95679012345679,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 1.86
+      },
+      "3": {
+        "cipher": "trivium",
+        "model": "random_forest",
+        "rounds": 3,
+        "bitwise_accuracy": 0.6573752572016461,
+        "hamming_distance": 21.92798353909465,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 1.75
+      },
+      "4": {
+        "cipher": "trivium",
+        "model": "random_forest",
+        "rounds": 4,
+        "bitwise_accuracy": 0.5921987525720165,
+        "hamming_distance": 26.099279835390945,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 1.82
+      },
+      "5": {
+        "cipher": "trivium",
+        "model": "random_forest",
+        "rounds": 5,
+        "bitwise_accuracy": 0.516798482510288,
+        "hamming_distance": 30.924897119341562,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 1.82
+      }
+    }
+  }
+}

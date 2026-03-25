@@ -1,0 +1,20 @@
+{
+  "cipher": "prince",
+  "rounds": 4,
+  "num_samples": 11340,
+  "block_bits": 64,
+  "key_hex": [
+    "0x123456789abcdef",
+    "0xfedcba9876543210"
+  ],
+  "seed": 42,
+  "X_shape": [
+    11340,
+    64
+  ],
+  "y_shape": [
+    11340,
+    64
+  ],
+  "gen_time_s": 0.67
+}

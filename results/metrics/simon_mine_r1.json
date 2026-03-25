@@ -1,0 +1,10 @@
+{
+  "cipher": "simon",
+  "model": "mine",
+  "rounds": 1,
+  "bitwise_accuracy": 0.8429270833333333,
+  "hamming_distance": 5.0263333333333335,
+  "word_accuracy": 0.0013333333333333333,
+  "block_bits": 32,
+  "train_time_s": 6.31
+}

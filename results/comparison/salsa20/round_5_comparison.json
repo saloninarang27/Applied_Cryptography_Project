@@ -1,0 +1,52 @@
+{
+  "cipher": "salsa20",
+  "round": 5,
+  "models": {
+    "logistic": {
+      "cipher": "salsa20",
+      "model": "logistic",
+      "rounds": 5,
+      "bitwise_accuracy": 0.5001157407407407,
+      "hamming_distance": 31.992592592592594,
+      "word_accuracy": 0.0,
+      "block_bits": 64,
+      "train_time_s": 5.83
+    },
+    "mlp": {
+      "cipher": "salsa20",
+      "model": "mlp",
+      "rounds": 5,
+      "bitwise_accuracy": 0.5115625,
+      "hamming_distance": 31.26,
+      "block_bits": 64,
+      "train_time_s": 38.78
+    },
+    "cnn": {
+      "cipher": "salsa20",
+      "model": "cnn",
+      "rounds": 5,
+      "bitwise_accuracy": 0.49932484567901236,
+      "hamming_distance": 32.04320987654321,
+      "block_bits": 64,
+      "train_time_s": 5.09
+    },
+    "mine": {
+      "cipher": "salsa20",
+      "model": "mine",
+      "rounds": 5,
+      "bitwise_accuracy": 0.5125868055555556,
+      "hamming_distance": 31.194444444444443,
+      "block_bits": 64,
+      "train_time_s": 1.83
+    },
+    "random_forest": {
+      "cipher": "salsa20",
+      "model": "random_forest",
+      "rounds": 5,
+      "bitwise_accuracy": 0.515258487654321,
+      "hamming_distance": 31.023456790123458,
+      "block_bits": 64,
+      "train_time_s": 3.49
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cipher": "lea",
+  "model": "mine",
+  "rounds": 2,
+  "bitwise_accuracy": 0.578740234375,
+  "hamming_distance": 53.92125,
+  "word_accuracy": 0.0,
+  "block_bits": 128,
+  "train_time_s": 1.21
+}

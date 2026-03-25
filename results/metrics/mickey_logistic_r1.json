@@ -1,0 +1,10 @@
+{
+  "cipher": "mickey",
+  "model": "logistic",
+  "rounds": 1,
+  "bitwise_accuracy": 0.8455182613168725,
+  "hamming_distance": 9.886831275720164,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 2.99
+}

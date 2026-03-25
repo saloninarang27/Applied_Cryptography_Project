@@ -1,0 +1,9 @@
+{
+  "cipher": "grain128a",
+  "model": "logistic",
+  "rounds": 40,
+  "bitwise_accuracy": 0.6876366383744856,
+  "hamming_distance": 19.991255144032923,
+  "block_bits": 64,
+  "train_time_s": 7.72
+}

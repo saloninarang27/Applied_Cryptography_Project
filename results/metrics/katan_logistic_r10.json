@@ -1,0 +1,9 @@
+{
+  "cipher": "katan",
+  "model": "logistic",
+  "rounds": 10,
+  "bitwise_accuracy": 0.845828125,
+  "hamming_distance": 4.9335,
+  "block_bits": 32,
+  "train_time_s": 1.39
+}

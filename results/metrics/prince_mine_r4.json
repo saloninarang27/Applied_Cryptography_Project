@@ -1,0 +1,9 @@
+{
+  "cipher": "prince",
+  "model": "mine",
+  "rounds": 4,
+  "bitwise_accuracy": 0.5607501102292769,
+  "hamming_distance": 28.11199294532628,
+  "block_bits": 64,
+  "train_time_s": 1.44
+}

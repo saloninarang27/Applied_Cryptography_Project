@@ -1,0 +1,10 @@
+{
+  "cipher": "present",
+  "model": "cnn",
+  "rounds": 2,
+  "bitwise_accuracy": 0.5245225694444444,
+  "hamming_distance": 30.430555555555557,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 1.65
+}

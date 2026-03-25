@@ -1,0 +1,17 @@
+{
+  "cipher": "present",
+  "rounds": 3,
+  "num_samples": 12960,
+  "block_bits": 64,
+  "key_hex": "0x0",
+  "seed": 42,
+  "X_shape": [
+    12960,
+    64
+  ],
+  "y_shape": [
+    12960,
+    64
+  ],
+  "gen_time_s": 0.75
+}

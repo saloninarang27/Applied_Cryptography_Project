@@ -1,0 +1,10 @@
+{
+  "cipher": "chacha20",
+  "model": "cnn",
+  "rounds": 5,
+  "bitwise_accuracy": 0.5010898919753086,
+  "hamming_distance": 31.93024691358025,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 6.8
+}

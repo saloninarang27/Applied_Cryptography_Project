@@ -1,0 +1,9 @@
+{
+  "cipher": "ascon",
+  "model": "random_forest",
+  "rounds": 3,
+  "bitwise_accuracy": 0.6734595458553791,
+  "hamming_distance": 20.89858906525573,
+  "block_bits": 64,
+  "train_time_s": 3.08
+}

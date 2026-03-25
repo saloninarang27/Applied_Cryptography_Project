@@ -1,0 +1,9 @@
+{
+  "cipher": "ascon",
+  "model": "mlp",
+  "rounds": 1,
+  "bitwise_accuracy": 0.911515625,
+  "hamming_distance": 5.663,
+  "block_bits": 64,
+  "train_time_s": 17.0
+}

@@ -1,0 +1,9 @@
+{
+  "cipher": "gift",
+  "model": "mine",
+  "rounds": 1,
+  "bitwise_accuracy": 0.6982381687242798,
+  "hamming_distance": 19.31275720164609,
+  "block_bits": 64,
+  "train_time_s": 1.08
+}

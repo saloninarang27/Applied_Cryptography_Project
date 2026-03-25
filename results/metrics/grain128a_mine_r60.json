@@ -1,0 +1,9 @@
+{
+  "cipher": "grain128a",
+  "model": "mine",
+  "rounds": 60,
+  "bitwise_accuracy": 0.533227237654321,
+  "hamming_distance": 29.873456790123456,
+  "block_bits": 64,
+  "train_time_s": 4.61
+}

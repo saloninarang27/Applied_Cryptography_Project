@@ -1,0 +1,9 @@
+{
+  "cipher": "salsa20",
+  "model": "cnn",
+  "rounds": 1,
+  "bitwise_accuracy": 0.511082175925926,
+  "hamming_distance": 31.29074074074074,
+  "block_bits": 64,
+  "train_time_s": 5.55
+}

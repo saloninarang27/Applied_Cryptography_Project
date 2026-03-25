@@ -1,0 +1,10 @@
+{
+  "cipher": "chacha20",
+  "model": "random_forest",
+  "rounds": 5,
+  "bitwise_accuracy": 0.5084104938271605,
+  "hamming_distance": 31.46172839506173,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 3.1
+}

@@ -1,0 +1,10 @@
+{
+  "cipher": "chacha20",
+  "model": "logistic",
+  "rounds": 5,
+  "bitwise_accuracy": 0.5078310185185185,
+  "hamming_distance": 31.498814814814814,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 38.67
+}

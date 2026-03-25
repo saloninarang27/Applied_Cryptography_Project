@@ -1,0 +1,37 @@
+{
+  "1": {
+    "bitwise_accuracy": 0.7189107510288066,
+    "hamming_distance": 17.98971193415638,
+    "word_accuracy": 0.0,
+    "block_bits": 64,
+    "train_time_s": 1.55
+  },
+  "2": {
+    "bitwise_accuracy": 0.6409866898148148,
+    "hamming_distance": 22.97685185185185,
+    "word_accuracy": 0.0,
+    "block_bits": 64,
+    "train_time_s": 1.74
+  },
+  "3": {
+    "bitwise_accuracy": 0.5787519290123457,
+    "hamming_distance": 26.959876543209877,
+    "word_accuracy": 0.0,
+    "block_bits": 64,
+    "train_time_s": 1.89
+  },
+  "4": {
+    "bitwise_accuracy": 0.5322145061728395,
+    "hamming_distance": 29.938271604938272,
+    "word_accuracy": 0.0,
+    "block_bits": 64,
+    "train_time_s": 2.09
+  },
+  "5": {
+    "bitwise_accuracy": 0.5009484310699589,
+    "hamming_distance": 31.939300411522634,
+    "word_accuracy": 0.0,
+    "block_bits": 64,
+    "train_time_s": 1.69
+  }
+}

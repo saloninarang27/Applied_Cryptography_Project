@@ -1,0 +1,9 @@
+{
+  "cipher": "grain128a",
+  "model": "random_forest",
+  "rounds": 40,
+  "bitwise_accuracy": 0.688279642489712,
+  "hamming_distance": 19.950102880658438,
+  "block_bits": 64,
+  "train_time_s": 3.46
+}

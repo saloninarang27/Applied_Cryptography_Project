@@ -1,0 +1,265 @@
+{
+  "cipher": "chacha20",
+  "results_by_model": {
+    "logistic": {
+      "1": {
+        "cipher": "chacha20",
+        "model": "logistic",
+        "rounds": 1,
+        "bitwise_accuracy": 0.8920208333333334,
+        "hamming_distance": 6.910666666666667,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 53.77
+      },
+      "2": {
+        "cipher": "chacha20",
+        "model": "logistic",
+        "rounds": 2,
+        "bitwise_accuracy": 0.7192789351851852,
+        "hamming_distance": 17.966148148148147,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 33.56
+      },
+      "3": {
+        "cipher": "chacha20",
+        "model": "logistic",
+        "rounds": 3,
+        "bitwise_accuracy": 0.6487662037037037,
+        "hamming_distance": 22.478962962962964,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 32.98
+      },
+      "4": {
+        "cipher": "chacha20",
+        "model": "logistic",
+        "rounds": 4,
+        "bitwise_accuracy": 0.5781597222222222,
+        "hamming_distance": 26.997777777777777,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 34.0
+      },
+      "5": {
+        "cipher": "chacha20",
+        "model": "logistic",
+        "rounds": 5,
+        "bitwise_accuracy": 0.5078310185185185,
+        "hamming_distance": 31.498814814814814,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 38.67
+      }
+    },
+    "mlp": {
+      "1": {
+        "cipher": "chacha20",
+        "model": "mlp",
+        "rounds": 1,
+        "bitwise_accuracy": 0.9614776234567901,
+        "hamming_distance": 2.465432098765432,
+        "word_accuracy": 0.11481481481481481,
+        "block_bits": 64,
+        "train_time_s": 371.84
+      },
+      "2": {
+        "cipher": "chacha20",
+        "model": "mlp",
+        "rounds": 2,
+        "bitwise_accuracy": 0.7338155864197531,
+        "hamming_distance": 17.035802469135803,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 159.39
+      },
+      "3": {
+        "cipher": "chacha20",
+        "model": "mlp",
+        "rounds": 3,
+        "bitwise_accuracy": 0.6555748456790124,
+        "hamming_distance": 22.04320987654321,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 131.56
+      },
+      "4": {
+        "cipher": "chacha20",
+        "model": "mlp",
+        "rounds": 4,
+        "bitwise_accuracy": 0.5771412037037037,
+        "hamming_distance": 27.062962962962963,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 139.97
+      },
+      "5": {
+        "cipher": "chacha20",
+        "model": "mlp",
+        "rounds": 5,
+        "bitwise_accuracy": 0.5092881944444444,
+        "hamming_distance": 31.405555555555555,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 143.83
+      }
+    },
+    "cnn": {
+      "1": {
+        "cipher": "chacha20",
+        "model": "cnn",
+        "rounds": 1,
+        "bitwise_accuracy": 0.5200424382716049,
+        "hamming_distance": 30.717283950617283,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 6.75
+      },
+      "2": {
+        "cipher": "chacha20",
+        "model": "cnn",
+        "rounds": 2,
+        "bitwise_accuracy": 0.5013503086419753,
+        "hamming_distance": 31.91358024691358,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 6.87
+      },
+      "3": {
+        "cipher": "chacha20",
+        "model": "cnn",
+        "rounds": 3,
+        "bitwise_accuracy": 0.5052469135802469,
+        "hamming_distance": 31.664197530864197,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 6.86
+      },
+      "4": {
+        "cipher": "chacha20",
+        "model": "cnn",
+        "rounds": 4,
+        "bitwise_accuracy": 0.49972993827160495,
+        "hamming_distance": 32.01728395061728,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 6.62
+      },
+      "5": {
+        "cipher": "chacha20",
+        "model": "cnn",
+        "rounds": 5,
+        "bitwise_accuracy": 0.5010898919753086,
+        "hamming_distance": 31.93024691358025,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 6.8
+      }
+    },
+    "mine": {
+      "1": {
+        "cipher": "chacha20",
+        "model": "mine",
+        "rounds": 1,
+        "bitwise_accuracy": 0.8998939043209877,
+        "hamming_distance": 6.4067901234567906,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 2.27
+      },
+      "2": {
+        "cipher": "chacha20",
+        "model": "mine",
+        "rounds": 2,
+        "bitwise_accuracy": 0.7331500771604939,
+        "hamming_distance": 17.078395061728394,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 2.13
+      },
+      "3": {
+        "cipher": "chacha20",
+        "model": "mine",
+        "rounds": 3,
+        "bitwise_accuracy": 0.6529706790123457,
+        "hamming_distance": 22.209876543209877,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 1.41
+      },
+      "4": {
+        "cipher": "chacha20",
+        "model": "mine",
+        "rounds": 4,
+        "bitwise_accuracy": 0.5803626543209877,
+        "hamming_distance": 26.85679012345679,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 1.41
+      },
+      "5": {
+        "cipher": "chacha20",
+        "model": "mine",
+        "rounds": 5,
+        "bitwise_accuracy": 0.5074749228395061,
+        "hamming_distance": 31.521604938271604,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 1.45
+      }
+    },
+    "random_forest": {
+      "1": {
+        "cipher": "chacha20",
+        "model": "random_forest",
+        "rounds": 1,
+        "bitwise_accuracy": 0.8256558641975309,
+        "hamming_distance": 11.158024691358024,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 3.0
+      },
+      "2": {
+        "cipher": "chacha20",
+        "model": "random_forest",
+        "rounds": 2,
+        "bitwise_accuracy": 0.7318769290123457,
+        "hamming_distance": 17.159876543209876,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 3.22
+      },
+      "3": {
+        "cipher": "chacha20",
+        "model": "random_forest",
+        "rounds": 3,
+        "bitwise_accuracy": 0.6578221450617284,
+        "hamming_distance": 21.899382716049384,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 2.92
+      },
+      "4": {
+        "cipher": "chacha20",
+        "model": "random_forest",
+        "rounds": 4,
+        "bitwise_accuracy": 0.578173225308642,
+        "hamming_distance": 26.996913580246915,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 3.21
+      },
+      "5": {
+        "cipher": "chacha20",
+        "model": "random_forest",
+        "rounds": 5,
+        "bitwise_accuracy": 0.5084104938271605,
+        "hamming_distance": 31.46172839506173,
+        "word_accuracy": 0.0,
+        "block_bits": 64,
+        "train_time_s": 3.1
+      }
+    }
+  }
+}

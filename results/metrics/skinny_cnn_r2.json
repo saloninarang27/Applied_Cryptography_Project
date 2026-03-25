@@ -1,0 +1,9 @@
+{
+  "cipher": "skinny",
+  "model": "cnn",
+  "rounds": 2,
+  "bitwise_accuracy": 0.5202385545267489,
+  "hamming_distance": 30.704732510288064,
+  "block_bits": 64,
+  "train_time_s": 4.74
+}

@@ -1,0 +1,9 @@
+{
+  "cipher": "led",
+  "model": "logistic",
+  "rounds": 1,
+  "bitwise_accuracy": 0.7353716563786008,
+  "hamming_distance": 16.93621399176955,
+  "block_bits": 64,
+  "train_time_s": 3.22
+}

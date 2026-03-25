@@ -1,0 +1,10 @@
+{
+  "cipher": "tinyjambu",
+  "model": "mlp",
+  "rounds": 3,
+  "bitwise_accuracy": 0.58009375,
+  "hamming_distance": 26.874,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 18.16
+}

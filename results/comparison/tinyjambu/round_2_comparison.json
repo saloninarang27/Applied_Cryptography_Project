@@ -1,0 +1,56 @@
+{
+  "cipher": "tinyjambu",
+  "round": 2,
+  "models": {
+    "logistic": {
+      "cipher": "tinyjambu",
+      "model": "logistic",
+      "rounds": 2,
+      "bitwise_accuracy": 0.6409706147119342,
+      "hamming_distance": 22.977880658436213,
+      "word_accuracy": 0.0,
+      "block_bits": 64,
+      "train_time_s": 0.49
+    },
+    "mlp": {
+      "cipher": "tinyjambu",
+      "model": "mlp",
+      "rounds": 2,
+      "bitwise_accuracy": 0.640640625,
+      "hamming_distance": 22.999,
+      "word_accuracy": 0.0,
+      "block_bits": 64,
+      "train_time_s": 15.99
+    },
+    "cnn": {
+      "cipher": "tinyjambu",
+      "model": "cnn",
+      "rounds": 2,
+      "bitwise_accuracy": 0.5355902777777778,
+      "hamming_distance": 29.72222222222222,
+      "word_accuracy": 0.0,
+      "block_bits": 64,
+      "train_time_s": 1.06
+    },
+    "mine": {
+      "cipher": "tinyjambu",
+      "model": "mine",
+      "rounds": 2,
+      "bitwise_accuracy": 0.6174205889917695,
+      "hamming_distance": 24.48508230452675,
+      "word_accuracy": 0.0,
+      "block_bits": 64,
+      "train_time_s": 1.11
+    },
+    "random_forest": {
+      "cipher": "tinyjambu",
+      "model": "random_forest",
+      "rounds": 2,
+      "bitwise_accuracy": 0.6409866898148148,
+      "hamming_distance": 22.97685185185185,
+      "word_accuracy": 0.0,
+      "block_bits": 64,
+      "train_time_s": 1.74
+    }
+  }
+}

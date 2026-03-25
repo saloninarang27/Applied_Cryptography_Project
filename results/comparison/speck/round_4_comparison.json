@@ -1,0 +1,54 @@
+{
+  "cipher": "speck",
+  "round": 4,
+  "models": {
+    "logistic": {
+      "cipher": "speck",
+      "model": "logistic",
+      "rounds": 4,
+      "bitwise_accuracy": 0.57528125,
+      "hamming_distance": 13.591,
+      "block_bits": 32,
+      "train_time_s": 1.28
+    },
+    "mlp": {
+      "cipher": "speck",
+      "model": "mlp",
+      "rounds": 4,
+      "bitwise_accuracy": 0.57359375,
+      "hamming_distance": 13.645,
+      "block_bits": 32,
+      "train_time_s": 9.21
+    },
+    "cnn": {
+      "cipher": "speck",
+      "model": "cnn",
+      "rounds": 4,
+      "bitwise_accuracy": 0.557875,
+      "hamming_distance": 14.148,
+      "word_accuracy": 0.0,
+      "block_bits": 32,
+      "train_time_s": 4.33
+    },
+    "mine": {
+      "cipher": "speck",
+      "model": "mine",
+      "rounds": 4,
+      "bitwise_accuracy": 0.5754296875,
+      "hamming_distance": 13.58625,
+      "word_accuracy": 0.0,
+      "block_bits": 32,
+      "train_time_s": 4.03
+    },
+    "random_forest": {
+      "cipher": "speck",
+      "model": "random_forest",
+      "rounds": 4,
+      "bitwise_accuracy": 0.5777578125,
+      "hamming_distance": 13.51175,
+      "word_accuracy": 0.0,
+      "block_bits": 32,
+      "train_time_s": 4.82
+    }
+  }
+}

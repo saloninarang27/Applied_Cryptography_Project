@@ -1,0 +1,10 @@
+{
+  "cipher": "aes",
+  "model": "cnn",
+  "rounds": 1,
+  "bitwise_accuracy": 0.51245703125,
+  "hamming_distance": 62.4055,
+  "word_accuracy": 0.0,
+  "block_bits": 128,
+  "train_time_s": 1.44
+}

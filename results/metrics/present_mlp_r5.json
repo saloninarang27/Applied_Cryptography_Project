@@ -1,0 +1,10 @@
+{
+  "cipher": "present",
+  "model": "mlp",
+  "rounds": 5,
+  "bitwise_accuracy": 0.5062029803240741,
+  "hamming_distance": 31.60300925925926,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 74.56
+}

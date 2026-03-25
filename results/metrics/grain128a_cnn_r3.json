@@ -1,0 +1,9 @@
+{
+  "cipher": "grain128a",
+  "model": "cnn",
+  "rounds": 3,
+  "bitwise_accuracy": 0.5180684156378601,
+  "hamming_distance": 30.843621399176953,
+  "block_bits": 64,
+  "train_time_s": 3.67
+}

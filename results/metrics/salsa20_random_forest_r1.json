@@ -1,0 +1,9 @@
+{
+  "cipher": "salsa20",
+  "model": "random_forest",
+  "rounds": 1,
+  "bitwise_accuracy": 0.7320891203703703,
+  "hamming_distance": 17.146296296296295,
+  "block_bits": 64,
+  "train_time_s": 3.61
+}

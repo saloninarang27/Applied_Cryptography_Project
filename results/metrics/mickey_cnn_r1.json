@@ -1,0 +1,10 @@
+{
+  "cipher": "mickey",
+  "model": "cnn",
+  "rounds": 1,
+  "bitwise_accuracy": 0.5369003986625515,
+  "hamming_distance": 29.638374485596707,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 5.15
+}

@@ -1,0 +1,9 @@
+{
+  "cipher": "prince",
+  "model": "cnn",
+  "rounds": 5,
+  "bitwise_accuracy": 0.4969066909171076,
+  "hamming_distance": 32.197971781305114,
+  "block_bits": 64,
+  "train_time_s": 4.89
+}

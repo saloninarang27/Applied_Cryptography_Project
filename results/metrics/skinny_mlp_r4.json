@@ -1,0 +1,9 @@
+{
+  "cipher": "skinny",
+  "model": "mlp",
+  "rounds": 4,
+  "bitwise_accuracy": 0.567234375,
+  "hamming_distance": 27.697,
+  "block_bits": 64,
+  "train_time_s": 26.15
+}

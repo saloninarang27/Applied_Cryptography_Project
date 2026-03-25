@@ -1,0 +1,10 @@
+{
+  "cipher": "aes",
+  "model": "mine",
+  "rounds": 1,
+  "bitwise_accuracy": 0.6347125771604938,
+  "hamming_distance": 46.75679012345679,
+  "word_accuracy": 0.0,
+  "block_bits": 128,
+  "train_time_s": 1.99
+}

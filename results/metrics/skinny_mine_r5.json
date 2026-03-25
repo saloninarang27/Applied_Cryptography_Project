@@ -1,0 +1,9 @@
+{
+  "cipher": "skinny",
+  "model": "mine",
+  "rounds": 5,
+  "bitwise_accuracy": 0.5185828189300411,
+  "hamming_distance": 30.810699588477366,
+  "block_bits": 64,
+  "train_time_s": 1.24
+}

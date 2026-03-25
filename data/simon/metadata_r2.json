@@ -1,0 +1,17 @@
+{
+  "cipher": "simon",
+  "rounds": 2,
+  "num_samples": 40000,
+  "block_bits": 32,
+  "key_hex": "0x1918",
+  "seed": 42,
+  "X_shape": [
+    40000,
+    32
+  ],
+  "y_shape": [
+    40000,
+    32
+  ],
+  "gen_time_s": 0.5
+}

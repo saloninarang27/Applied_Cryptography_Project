@@ -1,0 +1,10 @@
+{
+  "cipher": "aes",
+  "model": "mlp",
+  "rounds": 2,
+  "bitwise_accuracy": 0.633125,
+  "hamming_distance": 46.96,
+  "word_accuracy": 0.0,
+  "block_bits": 128,
+  "train_time_s": 86.33
+}

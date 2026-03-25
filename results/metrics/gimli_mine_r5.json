@@ -1,0 +1,10 @@
+{
+  "cipher": "gimli",
+  "model": "mine",
+  "rounds": 5,
+  "bitwise_accuracy": 0.49954530423280424,
+  "hamming_distance": 32.02910052910053,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 0.83
+}

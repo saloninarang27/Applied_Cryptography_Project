@@ -1,0 +1,51 @@
+{
+  "cipher": "led",
+  "round": 3,
+  "models": {
+    "logistic": {
+      "cipher": "led",
+      "model": "logistic",
+      "rounds": 3,
+      "bitwise_accuracy": 0.6264467592592593,
+      "hamming_distance": 23.90740740740741,
+      "block_bits": 64,
+      "train_time_s": 3.75
+    },
+    "mlp": {
+      "cipher": "led",
+      "model": "mlp",
+      "rounds": 3,
+      "bitwise_accuracy": 0.621359375,
+      "hamming_distance": 24.233,
+      "block_bits": 64,
+      "train_time_s": 26.62
+    },
+    "cnn": {
+      "cipher": "led",
+      "model": "cnn",
+      "rounds": 3,
+      "bitwise_accuracy": 0.5159223894032922,
+      "hamming_distance": 30.980967078189302,
+      "block_bits": 64,
+      "train_time_s": 4.59
+    },
+    "mine": {
+      "cipher": "led",
+      "model": "mine",
+      "rounds": 3,
+      "bitwise_accuracy": 0.5914271476337448,
+      "hamming_distance": 26.148662551440328,
+      "block_bits": 64,
+      "train_time_s": 1.91
+    },
+    "random_forest": {
+      "cipher": "led",
+      "model": "random_forest",
+      "rounds": 3,
+      "bitwise_accuracy": 0.6248955118312757,
+      "hamming_distance": 24.006687242798353,
+      "block_bits": 64,
+      "train_time_s": 3.51
+    }
+  }
+}

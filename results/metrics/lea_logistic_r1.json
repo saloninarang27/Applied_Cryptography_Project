@@ -1,0 +1,10 @@
+{
+  "cipher": "lea",
+  "model": "logistic",
+  "rounds": 1,
+  "bitwise_accuracy": 0.717763671875,
+  "hamming_distance": 36.12625,
+  "word_accuracy": 0.0,
+  "block_bits": 128,
+  "train_time_s": 1.34
+}

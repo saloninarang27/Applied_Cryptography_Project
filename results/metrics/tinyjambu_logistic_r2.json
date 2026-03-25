@@ -1,0 +1,10 @@
+{
+  "cipher": "tinyjambu",
+  "model": "logistic",
+  "rounds": 2,
+  "bitwise_accuracy": 0.6409706147119342,
+  "hamming_distance": 22.977880658436213,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 0.49
+}

@@ -1,0 +1,10 @@
+{
+  "cipher": "xoodoo",
+  "model": "mlp",
+  "rounds": 5,
+  "bitwise_accuracy": 0.499984375,
+  "hamming_distance": 32.001,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 11.49
+}

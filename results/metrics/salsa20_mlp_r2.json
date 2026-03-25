@@ -1,0 +1,9 @@
+{
+  "cipher": "salsa20",
+  "model": "mlp",
+  "rounds": 2,
+  "bitwise_accuracy": 0.6738125,
+  "hamming_distance": 20.876,
+  "block_bits": 64,
+  "train_time_s": 34.55
+}

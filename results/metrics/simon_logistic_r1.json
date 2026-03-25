@@ -1,0 +1,10 @@
+{
+  "cipher": "simon",
+  "model": "logistic",
+  "rounds": 1,
+  "bitwise_accuracy": 0.852484375,
+  "hamming_distance": 4.7205,
+  "word_accuracy": 0.001,
+  "block_bits": 32,
+  "train_time_s": 1.14
+}

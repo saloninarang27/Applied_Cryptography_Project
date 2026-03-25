@@ -1,0 +1,9 @@
+{
+  "cipher": "ascon",
+  "model": "mine",
+  "rounds": 5,
+  "bitwise_accuracy": 0.5161210317460317,
+  "hamming_distance": 30.96825396825397,
+  "block_bits": 64,
+  "train_time_s": 1.14
+}

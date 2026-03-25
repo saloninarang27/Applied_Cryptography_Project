@@ -1,0 +1,22 @@
+{
+  "cipher": "aes",
+  "rounds": 3,
+  "num_samples": 20250,
+  "block_bits": 128,
+  "key_hex": [
+    "0x10203",
+    "0x4050607",
+    "0x8090a0b",
+    "0xc0d0e0f"
+  ],
+  "seed": 42,
+  "X_shape": [
+    20250,
+    128
+  ],
+  "y_shape": [
+    20250,
+    128
+  ],
+  "gen_time_s": 3.12
+}

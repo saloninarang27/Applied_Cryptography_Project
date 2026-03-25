@@ -1,0 +1,22 @@
+{
+  "cipher": "led",
+  "rounds": 3,
+  "num_samples": 9720,
+  "block_bits": 64,
+  "key_hex": [
+    "0x123",
+    "0x4567",
+    "0x89ab",
+    "0xcdef"
+  ],
+  "seed": 42,
+  "X_shape": [
+    9720,
+    64
+  ],
+  "y_shape": [
+    9720,
+    64
+  ],
+  "gen_time_s": 0.75
+}

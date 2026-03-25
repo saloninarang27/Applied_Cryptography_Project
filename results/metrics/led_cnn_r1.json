@@ -1,0 +1,9 @@
+{
+  "cipher": "led",
+  "model": "cnn",
+  "rounds": 1,
+  "bitwise_accuracy": 0.5237188143004116,
+  "hamming_distance": 30.481995884773664,
+  "block_bits": 64,
+  "train_time_s": 4.42
+}

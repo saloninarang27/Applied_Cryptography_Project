@@ -1,0 +1,9 @@
+{
+  "cipher": "salsa20",
+  "model": "mine",
+  "rounds": 2,
+  "bitwise_accuracy": 0.6201485339506173,
+  "hamming_distance": 24.310493827160492,
+  "block_bits": 64,
+  "train_time_s": 1.72
+}

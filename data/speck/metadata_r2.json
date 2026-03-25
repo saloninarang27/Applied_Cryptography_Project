@@ -1,0 +1,22 @@
+{
+  "cipher": "speck",
+  "rounds": 2,
+  "num_samples": 20000,
+  "block_bits": 32,
+  "key_hex": [
+    "0x1918",
+    "0x1110",
+    "0x908",
+    "0x100"
+  ],
+  "seed": 42,
+  "X_shape": [
+    20000,
+    32
+  ],
+  "y_shape": [
+    20000,
+    32
+  ],
+  "gen_time_s": 0.58
+}

@@ -1,0 +1,10 @@
+{
+  "cipher": "tinyjambu",
+  "model": "cnn",
+  "rounds": 4,
+  "bitwise_accuracy": 0.5082786779835391,
+  "hamming_distance": 31.470164609053498,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 1.31
+}

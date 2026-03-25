@@ -1,0 +1,9 @@
+{
+  "cipher": "gift",
+  "model": "random_forest",
+  "rounds": 3,
+  "bitwise_accuracy": 0.6576726466049383,
+  "hamming_distance": 21.90895061728395,
+  "block_bits": 64,
+  "train_time_s": 2.37
+}

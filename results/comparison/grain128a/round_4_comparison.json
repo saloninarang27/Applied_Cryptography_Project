@@ -1,0 +1,51 @@
+{
+  "cipher": "grain128a",
+  "round": 4,
+  "models": {
+    "logistic": {
+      "cipher": "grain128a",
+      "model": "logistic",
+      "rounds": 4,
+      "bitwise_accuracy": 0.5790734310699589,
+      "hamming_distance": 26.939300411522634,
+      "block_bits": 64,
+      "train_time_s": 3.04
+    },
+    "mlp": {
+      "cipher": "grain128a",
+      "model": "mlp",
+      "rounds": 4,
+      "bitwise_accuracy": 0.573796875,
+      "hamming_distance": 27.277,
+      "block_bits": 64,
+      "train_time_s": 16.94
+    },
+    "cnn": {
+      "cipher": "grain128a",
+      "model": "cnn",
+      "rounds": 4,
+      "bitwise_accuracy": 0.5100951646090535,
+      "hamming_distance": 31.353909465020575,
+      "block_bits": 64,
+      "train_time_s": 3.74
+    },
+    "mine": {
+      "cipher": "grain128a",
+      "model": "mine",
+      "rounds": 4,
+      "bitwise_accuracy": 0.5588991769547325,
+      "hamming_distance": 28.23045267489712,
+      "block_bits": 64,
+      "train_time_s": 0.9
+    },
+    "random_forest": {
+      "cipher": "grain128a",
+      "model": "random_forest",
+      "rounds": 4,
+      "bitwise_accuracy": 0.5799816743827161,
+      "hamming_distance": 26.881172839506174,
+      "block_bits": 64,
+      "train_time_s": 3.17
+    }
+  }
+}

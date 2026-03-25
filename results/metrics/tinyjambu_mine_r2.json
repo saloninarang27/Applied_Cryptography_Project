@@ -1,0 +1,10 @@
+{
+  "cipher": "tinyjambu",
+  "model": "mine",
+  "rounds": 2,
+  "bitwise_accuracy": 0.6174205889917695,
+  "hamming_distance": 24.48508230452675,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 1.11
+}

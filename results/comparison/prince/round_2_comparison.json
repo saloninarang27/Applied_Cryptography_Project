@@ -1,0 +1,51 @@
+{
+  "cipher": "prince",
+  "round": 2,
+  "models": {
+    "logistic": {
+      "cipher": "prince",
+      "model": "logistic",
+      "rounds": 2,
+      "bitwise_accuracy": 0.6800390625,
+      "hamming_distance": 20.4775,
+      "block_bits": 64,
+      "train_time_s": 3.23
+    },
+    "mlp": {
+      "cipher": "prince",
+      "model": "mlp",
+      "rounds": 2,
+      "bitwise_accuracy": 0.672828125,
+      "hamming_distance": 20.939,
+      "block_bits": 64,
+      "train_time_s": 19.74
+    },
+    "cnn": {
+      "cipher": "prince",
+      "model": "cnn",
+      "rounds": 2,
+      "bitwise_accuracy": 0.5198343805114638,
+      "hamming_distance": 30.730599647266313,
+      "block_bits": 64,
+      "train_time_s": 5.25
+    },
+    "mine": {
+      "cipher": "prince",
+      "model": "mine",
+      "rounds": 2,
+      "bitwise_accuracy": 0.6353271053791887,
+      "hamming_distance": 23.33906525573192,
+      "block_bits": 64,
+      "train_time_s": 1.42
+    },
+    "random_forest": {
+      "cipher": "prince",
+      "model": "random_forest",
+      "rounds": 2,
+      "bitwise_accuracy": 0.6795359347442681,
+      "hamming_distance": 20.50970017636684,
+      "block_bits": 64,
+      "train_time_s": 3.76
+    }
+  }
+}

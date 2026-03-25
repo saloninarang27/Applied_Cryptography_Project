@@ -1,0 +1,22 @@
+{
+  "cipher": "xoodoo",
+  "rounds": 2,
+  "num_samples": 11340,
+  "block_bits": 64,
+  "key_hex": [
+    "0xdeadbeef",
+    "0xcafebabe",
+    "0xbadf00d",
+    "0x8badf00d"
+  ],
+  "seed": 42,
+  "X_shape": [
+    11340,
+    64
+  ],
+  "y_shape": [
+    11340,
+    64
+  ],
+  "gen_time_s": 0.44
+}

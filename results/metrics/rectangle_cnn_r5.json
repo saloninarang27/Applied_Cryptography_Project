@@ -1,0 +1,9 @@
+{
+  "cipher": "rectangle",
+  "model": "cnn",
+  "rounds": 5,
+  "bitwise_accuracy": 0.5029578189300411,
+  "hamming_distance": 31.810699588477366,
+  "block_bits": 64,
+  "train_time_s": 6.35
+}

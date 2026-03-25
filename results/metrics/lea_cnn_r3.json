@@ -1,0 +1,10 @@
+{
+  "cipher": "lea",
+  "model": "cnn",
+  "rounds": 3,
+  "bitwise_accuracy": 0.5075048828125,
+  "hamming_distance": 63.039375,
+  "word_accuracy": 0.0,
+  "block_bits": 128,
+  "train_time_s": 1.53
+}

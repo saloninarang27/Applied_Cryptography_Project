@@ -1,0 +1,10 @@
+{
+  "cipher": "mickey",
+  "model": "mlp",
+  "rounds": 4,
+  "bitwise_accuracy": 0.5825,
+  "hamming_distance": 26.72,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 21.27
+}

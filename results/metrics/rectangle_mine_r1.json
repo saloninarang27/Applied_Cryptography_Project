@@ -1,0 +1,9 @@
+{
+  "cipher": "rectangle",
+  "model": "mine",
+  "rounds": 1,
+  "bitwise_accuracy": 0.6559526105967078,
+  "hamming_distance": 22.019032921810698,
+  "block_bits": 64,
+  "train_time_s": 2.28
+}

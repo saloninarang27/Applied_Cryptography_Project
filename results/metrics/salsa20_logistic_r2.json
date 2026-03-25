@@ -1,0 +1,10 @@
+{
+  "cipher": "salsa20",
+  "model": "logistic",
+  "rounds": 2,
+  "bitwise_accuracy": 0.7581597222222223,
+  "hamming_distance": 15.477777777777778,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 7.41
+}

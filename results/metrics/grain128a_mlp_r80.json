@@ -1,0 +1,9 @@
+{
+  "cipher": "grain128a",
+  "model": "mlp",
+  "rounds": 80,
+  "bitwise_accuracy": 0.5031587577160493,
+  "hamming_distance": 31.79783950617284,
+  "block_bits": 64,
+  "train_time_s": 29.33
+}

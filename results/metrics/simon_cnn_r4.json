@@ -1,0 +1,10 @@
+{
+  "cipher": "simon",
+  "model": "cnn",
+  "rounds": 4,
+  "bitwise_accuracy": 0.5210677083333334,
+  "hamming_distance": 15.325833333333334,
+  "word_accuracy": 0.0,
+  "block_bits": 32,
+  "train_time_s": 52.92
+}

@@ -1,0 +1,10 @@
+{
+  "cipher": "trivium",
+  "model": "mine",
+  "rounds": 4,
+  "bitwise_accuracy": 0.596338091563786,
+  "hamming_distance": 25.834362139917694,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 2.86
+}

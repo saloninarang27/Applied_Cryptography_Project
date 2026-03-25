@@ -1,0 +1,9 @@
+{
+  "cipher": "gift",
+  "model": "cnn",
+  "rounds": 4,
+  "bitwise_accuracy": 0.5047180426954733,
+  "hamming_distance": 31.69804526748971,
+  "block_bits": 64,
+  "train_time_s": 3.03
+}

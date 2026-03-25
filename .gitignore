@@ -1,0 +1,36 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.egg-info/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# VS Code workspace state
+.vscode/
+*.code-workspace
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# Local environment files
+.env
+.env.local
+
+# Generated datasets (only exclude raw data, keep metadata/results)
+data/**/X_r*.npy
+data/**/y_r*.npy
+
+# Local logs
+*.log
+*.tmp
+
+# System files
+.DS_Store
+Thumbs.db

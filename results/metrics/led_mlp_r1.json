@@ -1,0 +1,9 @@
+{
+  "cipher": "led",
+  "model": "mlp",
+  "rounds": 1,
+  "bitwise_accuracy": 0.725265625,
+  "hamming_distance": 17.583,
+  "block_bits": 64,
+  "train_time_s": 22.32
+}

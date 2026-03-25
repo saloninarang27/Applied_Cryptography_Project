@@ -1,0 +1,9 @@
+{
+  "cipher": "prince",
+  "model": "random_forest",
+  "rounds": 1,
+  "bitwise_accuracy": 0.7337894069664903,
+  "hamming_distance": 17.03747795414462,
+  "block_bits": 64,
+  "train_time_s": 3.95
+}

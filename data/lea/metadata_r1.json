@@ -1,0 +1,22 @@
+{
+  "cipher": "lea",
+  "rounds": 1,
+  "num_samples": 8000,
+  "block_bits": 128,
+  "key_hex": [
+    "0x3c2d1e0f",
+    "0x78695a4b",
+    "0xb4a59687",
+    "0xf0e1d2c3"
+  ],
+  "seed": 42,
+  "X_shape": [
+    8000,
+    128
+  ],
+  "y_shape": [
+    8000,
+    128
+  ],
+  "gen_time_s": 0.44
+}

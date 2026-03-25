@@ -1,0 +1,10 @@
+{
+  "cipher": "simon",
+  "model": "mlp",
+  "rounds": 1,
+  "bitwise_accuracy": 0.93653515625,
+  "hamming_distance": 2.030875,
+  "word_accuracy": 0.0285,
+  "block_bits": 32,
+  "train_time_s": 106.58
+}

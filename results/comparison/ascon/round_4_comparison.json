@@ -1,0 +1,52 @@
+{
+  "cipher": "ascon",
+  "round": 4,
+  "models": {
+    "logistic": {
+      "cipher": "ascon",
+      "model": "logistic",
+      "rounds": 4,
+      "bitwise_accuracy": 0.594796875,
+      "hamming_distance": 25.933,
+      "word_accuracy": 0.0,
+      "block_bits": 64,
+      "train_time_s": 5.11
+    },
+    "mlp": {
+      "cipher": "ascon",
+      "model": "mlp",
+      "rounds": 4,
+      "bitwise_accuracy": 0.592109375,
+      "hamming_distance": 26.105,
+      "block_bits": 64,
+      "train_time_s": 19.28
+    },
+    "cnn": {
+      "cipher": "ascon",
+      "model": "cnn",
+      "rounds": 4,
+      "bitwise_accuracy": 0.498070987654321,
+      "hamming_distance": 32.123456790123456,
+      "block_bits": 64,
+      "train_time_s": 4.29
+    },
+    "mine": {
+      "cipher": "ascon",
+      "model": "mine",
+      "rounds": 4,
+      "bitwise_accuracy": 0.5747767857142857,
+      "hamming_distance": 27.214285714285715,
+      "block_bits": 64,
+      "train_time_s": 1.06
+    },
+    "random_forest": {
+      "cipher": "ascon",
+      "model": "random_forest",
+      "rounds": 4,
+      "bitwise_accuracy": 0.5918898809523809,
+      "hamming_distance": 26.11904761904762,
+      "block_bits": 64,
+      "train_time_s": 3.26
+    }
+  }
+}

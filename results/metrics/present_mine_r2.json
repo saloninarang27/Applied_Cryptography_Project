@@ -1,0 +1,10 @@
+{
+  "cipher": "present",
+  "model": "mine",
+  "rounds": 2,
+  "bitwise_accuracy": 0.5909529320987654,
+  "hamming_distance": 26.179012345679013,
+  "word_accuracy": 0.0,
+  "block_bits": 64,
+  "train_time_s": 1.21
+}

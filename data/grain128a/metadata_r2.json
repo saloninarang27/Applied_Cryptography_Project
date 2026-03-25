@@ -1,0 +1,22 @@
+{
+  "cipher": "grain128a",
+  "rounds": 2,
+  "num_samples": 9720,
+  "block_bits": 64,
+  "key_hex": [
+    "0xf1e2d3c",
+    "0x4b5a6978",
+    "0x8796a5b4",
+    "0xc3d2e1f0"
+  ],
+  "seed": 42,
+  "X_shape": [
+    9720,
+    64
+  ],
+  "y_shape": [
+    9720,
+    64
+  ],
+  "gen_time_s": 0.61
+}

@@ -1,0 +1,9 @@
+{
+  "cipher": "rectangle",
+  "model": "random_forest",
+  "rounds": 4,
+  "bitwise_accuracy": 0.5719360853909465,
+  "hamming_distance": 27.396090534979425,
+  "block_bits": 64,
+  "train_time_s": 4.2
+}

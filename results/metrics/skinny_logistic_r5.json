@@ -1,0 +1,9 @@
+{
+  "cipher": "skinny",
+  "model": "logistic",
+  "rounds": 5,
+  "bitwise_accuracy": 0.5151748971193416,
+  "hamming_distance": 31.02880658436214,
+  "block_bits": 64,
+  "train_time_s": 3.66
+}
