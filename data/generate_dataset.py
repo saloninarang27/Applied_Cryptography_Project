@@ -37,23 +37,11 @@ sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 from ciphers.simon import simon_encrypt, int_to_bits
 from ciphers.present import present_encrypt
 from ciphers.speck import speck_encrypt
-from ciphers.ascon import ascon_encrypt
-from ciphers.prince import prince_encrypt
-from ciphers.gimli import gimli_encrypt
 from ciphers.xoodoo import xoodoo_encrypt
 from ciphers.tinyjambu import tinyjambu_encrypt
 from ciphers.katan import katan_encrypt
-from ciphers.grain128a import grain128a_encrypt
-from ciphers.led import led_encrypt
-from ciphers.skinny import skinny_encrypt
 from ciphers.trivium import trivium_encrypt
-from ciphers.chacha20 import chacha20_encrypt
-from ciphers.mickey import mickey_encrypt
-from ciphers.salsa20 import salsa20_encrypt
-from ciphers.rectangle import rectangle_encrypt
 from ciphers.aes import aes_encrypt
-from ciphers.gift import gift_encrypt
-from ciphers.lea import lea_encrypt
 
 
 CIPHER_CONFIG: Dict[str, Dict[str, Any]] = {
@@ -75,24 +63,6 @@ CIPHER_CONFIG: Dict[str, Dict[str, Any]] = {
         "key": [0x1918, 0x1110, 0x0908, 0x0100],
         "encrypt": speck_encrypt,
     },
-    "ascon": {
-        "block_bits": 64,
-        "num_samples": 70_000,
-        "key": [0x0123456789ABCDEF, 0x0FEDCBA987654321, 0xA1A2A3A4A5A6A7A8, 0xB1B2B3B4B5B6B7B8],
-        "encrypt": ascon_encrypt,
-    },
-    "prince": {
-        "block_bits": 64,
-        "num_samples": 70_000,
-        "key": [0x0123456789ABCDEF, 0xFEDCBA9876543210],
-        "encrypt": prince_encrypt,
-    },
-    "gimli": {
-        "block_bits": 64,
-        "num_samples": 70_000,
-        "key": [0x243F6A88, 0x85A308D3, 0x13198A2E, 0x03707344],
-        "encrypt": gimli_encrypt,
-    },
     "xoodoo": {
         "block_bits": 64,
         "num_samples": 70_000,
@@ -111,77 +81,17 @@ CIPHER_CONFIG: Dict[str, Dict[str, Any]] = {
         "key": [0x1234, 0x5678, 0x9ABC, 0xDEF0, 0x1357],
         "encrypt": katan_encrypt,
     },
-    "grain128a": {
-        "block_bits": 64,
-        "num_samples": 60_000,
-        "key": [0x0F1E2D3C, 0x4B5A6978, 0x8796A5B4, 0xC3D2E1F0],
-        "encrypt": grain128a_encrypt,
-    },
-    "led": {
-        "block_bits": 64,
-        "num_samples": 60_000,
-        "key": [0x0123, 0x4567, 0x89AB, 0xCDEF],
-        "encrypt": led_encrypt,
-    },
-    "skinny": {
-        "block_bits": 64,
-        "num_samples": 60_000,
-        "key": [0x89AB, 0xCDEF, 0x0123, 0x4567],
-        "encrypt": skinny_encrypt,
-    },
     "trivium": {
         "block_bits": 64,
         "num_samples": 60_000,
         "key": [0x12345678, 0x9ABCDEF0, 0x0F1E2D3C, 0x4B5A6978],
         "encrypt": trivium_encrypt,
     },
-    "chacha20": {
-        "block_bits": 64,
-        "num_samples": 50_000,
-        "key": [
-            0x03020100, 0x07060504, 0x0B0A0908, 0x0F0E0D0C,
-            0x13121110, 0x17161514, 0x1B1A1918, 0x1F1E1D1C,
-        ],
-        "encrypt": chacha20_encrypt,
-    },
-    "mickey": {
-        "block_bits": 64,
-        "num_samples": 60_000,
-        "key": [0x0BADF00D, 0xDEADBEEF, 0xCAFEBABE, 0x13579BDF],
-        "encrypt": mickey_encrypt,
-    },
-    "salsa20": {
-        "block_bits": 64,
-        "num_samples": 50_000,
-        "key": [
-            0x61707865, 0x3320646E, 0x79622D32, 0x6B206574,
-            0x243F6A88, 0x85A308D3, 0x13198A2E, 0x03707344,
-        ],
-        "encrypt": salsa20_encrypt,
-    },
-    "rectangle": {
-        "block_bits": 64,
-        "num_samples": 60_000,
-        "key": [0x0123, 0x4567, 0x89AB, 0xCDEF, 0x1357],
-        "encrypt": rectangle_encrypt,
-    },
     "aes": {
         "block_bits": 128,
         "num_samples": 20_000,
         "key": [0x00010203, 0x04050607, 0x08090A0B, 0x0C0D0E0F],
         "encrypt": aes_encrypt,
-    },
-    "gift": {
-        "block_bits": 64,
-        "num_samples": 60_000,
-        "key": [0x0123, 0x4567, 0x89AB, 0xCDEF, 0x1357, 0x9BDF, 0x2468, 0xACE0],
-        "encrypt": gift_encrypt,
-    },
-    "lea": {
-        "block_bits": 128,
-        "num_samples": 20_000,
-        "key": [0x3C2D1E0F, 0x78695A4B, 0xB4A59687, 0xF0E1D2C3],
-        "encrypt": lea_encrypt,
     },
 }
 

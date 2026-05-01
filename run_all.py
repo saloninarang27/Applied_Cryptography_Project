@@ -40,25 +40,13 @@ import time
 
 RUNNERS = [
     ("SIMON", "simon"),
-    ("ASCON", "ascon"),
-    ("GIMLI", "gimli"),
     ("TINYJAMBU", "tinyjambu"),
     ("KATAN", "katan"),
-    ("GRAIN-128A", "grain128a"),
-    ("LED", "led"),
-    ("SKINNY", "skinny"),
     ("PRESENT", "present"),
-    ("PRINCE", "prince"),
     ("SPECK", "speck"),
     ("XOODOO", "xoodoo"),
     ("TRIVIUM", "trivium"),
-    ("CHACHA20", "chacha20"),
-    ("MICKEY", "mickey"),
-    ("SALSA20", "salsa20"),
-    ("RECTANGLE", "rectangle"),
     ("AES", "aes"),
-    ("GIFT", "gift"),
-    ("LEA", "lea"),
 ]
 
 

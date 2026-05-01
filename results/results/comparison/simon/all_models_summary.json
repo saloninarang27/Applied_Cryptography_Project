@@ -1,0 +1,10 @@
+{
+  "cipher": "simon",
+  "results_by_model": {
+    "logistic": {},
+    "mlp": {},
+    "cnn": {},
+    "mine": {},
+    "random_forest": {}
+  }
+}

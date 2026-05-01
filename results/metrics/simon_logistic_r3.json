@@ -2,9 +2,9 @@
   "cipher": "simon",
   "model": "logistic",
   "rounds": 3,
-  "bitwise_accuracy": 0.562625,
-  "hamming_distance": 13.996,
+  "bitwise_accuracy": 0.5002552083333334,
+  "hamming_distance": 15.991833333333334,
   "word_accuracy": 0.0,
   "block_bits": 32,
-  "train_time_s": 1.44
+  "train_time_s": 2.13
 }
